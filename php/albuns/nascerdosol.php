@@ -1,0 +1,81 @@
+<?php
+//por do sol 
+//vegetação
+//rio
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/albuns/nascerdosol.css">
+    <title>BIBLIOTECA</title>
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li><a href="../index.php">HOME</a></li>
+        <li><a href="album.php">ÁLBUM</a>
+        </li>
+        <li><a href="#">CONTATO</a>
+            <ul><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></ul>
+        </li>
+        
+    </ul>
+</nav>
+    <div class="container">
+            <h1 class ="heading">MANHÃS E FINS DE TARDE</h1>
+            
+        <div class="container-image">
+            <!------------------------1------------------------>
+            <div class="image" data-title="manha 1">
+                <img src="/imgnovas/nascerdosol/6pm.jpg" alt=""> 
+            </div>
+            <!------------------------2------------------------>
+            <div class="image" data-title="manha 2">
+                <img src="/imgnovas/nascerdosol/DJI_0036.jpg" alt=""> 
+            </div>
+            <!------------------------3------------------------>
+            <div class="image" data-title="manha 3">
+                <img src="/imgnovas/nascerdosol/8.jpg" alt=""> 
+            </div>
+            <!------------------------4------------------------>
+            <div class="image" data-title="manha 4">
+                <img src="/imgnovas/nascerdosol/19201079.jpg" alt=""> 
+            </div>
+            <!------------------------5------------------------>
+            <div class="image" data-title="manha 5">
+                <img src="/imgnovas/nascerdosol/boavinda1920.jpg" alt=""> 
+            </div>
+            <!------------------------6------------------------>
+            <div class="image" data-title="manha 6">
+                <img src="/imgnovas/nascerdosol/chuvarosa.jpg" alt=""> 
+            </div>
+            <!------------------------7------------------------>
+            <div class="image" data-title="manha 7">
+                <img src="/imgnovas/nascerdosol/DJI_0005.jpg" alt=""> 
+            </div>
+            <!------------------------8------------------------>
+            <div class="image" data-title="manha 8">
+                <img src="/imgnovas/nascerdosol/grande.jpg" alt=""> 
+            </div>
+            <!------------------------9------------------------>
+            <div class="image" data-title="manha 9">
+                <img src="/imgnovas/nascerdosol/nome.jpg" alt=""> 
+            </div>
+            <!------------------------10------------------------>
+            <div class="image" data-title="manha 10">
+                <img src="/imgnovas/nascerdosol/DJI_0045.jpg" alt=""> 
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("sair").addEventListener("click", function(event) {
+            event.preventDefault(); 
+                window.location.href = "../index.php";          
+        });
+    </script>
+</body>
+</html>

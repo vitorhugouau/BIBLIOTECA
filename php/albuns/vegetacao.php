@@ -1,0 +1,90 @@
+<?php
+//por do sol 
+//vegetação
+//rio
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/albuns/vegetacao.css">
+    <title>BIBLIOTECA</title>
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li><a href="../index.php">HOME</a></li>
+        <li><a href="album.php">ÁLBUM</a>
+        </li>
+        <li><a href="#">CONTATO</a>
+            <ul><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></ul>
+        </li>
+        
+    </ul>
+</nav>
+    <div class="container">
+        <h1 class ="heading">VEGETAÇÃO</h1>
+
+    <div class="container-image">
+        <!------------------------1------------------------>
+        <div class="image" data-title="veg 1">
+            <img src="/imgnovas/vegetação/1.jpg" alt=""> 
+        </div>
+        <!------------------------2------------------------>
+        <div class="image" data-title="veg 2">
+            <img src="/imgnovas/vegetação/2.jpg" alt=""> 
+        </div>
+        <!------------------------3------------------------>
+        <div class="image" data-title="veg 3">
+            <img src="/imgnovas/vegetação/3.jpg" alt=""> 
+        </div>
+        <!------------------------4------------------------>
+        <div class="image" data-title="veg 4">
+            <img src="/imgnovas/vegetação/4.jpg" alt=""> 
+        </div>
+        <!------------------------5------------------------>
+        <div class="image" data-title="veg 5">
+            <img src="/imgnovas/vegetação/5.jpg" alt=""> 
+        </div>
+        <!------------------------6------------------------>
+        <div class="image" data-title="veg 6">
+            <img src="/imgnovas/vegetação/6.jpg" alt=""> 
+        </div>
+        <!------------------------7------------------------>
+        <div class="image" data-title="veg 7">
+            <img src="/imgnovas/vegetação/7.jpg" alt=""> 
+        </div>
+        <!------------------------8------------------------>
+        <div class="image" data-title="veg 8">
+            <img src="/imgnovas/vegetação/8.jpg" alt=""> 
+        </div>
+        <!------------------------9------------------------>
+        <div class="image" data-title="veg 9">
+            <img src="/imgnovas/vegetação/9.jpg" alt=""> 
+        </div>
+        <!------------------------10------------------------>
+        <div class="image" data-title="veg 10">
+            <img src="/imgnovas/vegetação/10.jpg" alt=""> 
+        </div>
+        <!------------------------11------------------------>
+        <div class="image" data-title="veg 12">
+            <img src="/imgnovas/vegetação/11.jpg" alt=""> 
+        </div>
+        <!------------------------12------------------------>
+        <div class="image" data-title="veg 12">
+            <img src="/imgnovas/vegetação/12.jpg" alt=""> 
+        </div>
+        
+    </div>
+</div>
+
+
+    <script>
+        document.getElementById("sair").addEventListener("click", function(event) {
+            event.preventDefault(); 
+                window.location.href = "../index.php";          
+        });
+    </script>
+</body>
+</html>

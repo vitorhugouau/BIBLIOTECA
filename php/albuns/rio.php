@@ -1,0 +1,82 @@
+<?php
+//por do sol 
+//vegetação
+//rio
+
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/albuns/rio.css">
+    <title>BIBLIOTECA</title>
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li><a href="../index.php">HOME</a></li>
+        <li><a href="album.php">ÁLBUM</a>
+        </li>
+        <li><a href="#">CONTATO</a>
+            <ul><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></ul>
+        </li>
+        
+    </ul>
+</nav>
+    <div class="container">
+            <h1 class ="heading">FOTOS DO RIO</h1>
+
+        <div class="container-image">
+            <!------------------------1------------------------>
+            <div class="image" data-title="rio 1">
+                <img src="/imgnovas/rio/1.jpg" alt=""> 
+            </div>
+            <!------------------------2------------------------>
+            <div class="image" data-title="rio 2">
+                <img src="/imgnovas/rio/2.jpg" alt=""> 
+            </div>
+            <!------------------------3------------------------>
+            <div class="image" data-title="rio 3">
+                <img src="/imgnovas/rio/3.jpg" alt=""> 
+            </div>
+            <!------------------------4------------------------>
+            <div class="image" data-title="rio 4">
+                <img src="/imgnovas/rio/4.jpg" alt=""> 
+            </div>
+            <!------------------------5------------------------>
+            <div class="image" data-title="rio 5">
+                <img src="/imgnovas/rio/5.jpg" alt=""> 
+            </div>
+            <!------------------------6------------------------>
+            <div class="image" data-title="rio 6">
+                <img src="/imgnovas/rio/6.jpg" alt=""> 
+            </div>
+            <!------------------------7------------------------>
+            <div class="image" data-title="rio 7">
+                <img src="/imgnovas/rio/7.jpg" alt=""> 
+            </div>
+            <!------------------------8------------------------>
+            <div class="image" data-title="rio 8">
+                <img src="/imgnovas/rio/8.jpg" alt=""> 
+            </div>
+            <!------------------------9------------------------>
+            <div class="image" data-title="rio 9">
+                <img src="/imgnovas/rio/9.jpg" alt=""> 
+            </div>
+            <!------------------------10------------------------>
+            <div class="image" data-title="rio 10">
+                <img src="/imgnovas/rio/10.jpg" alt=""> 
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("sair").addEventListener("click", function(event) {
+            event.preventDefault(); 
+                window.location.href = "../index.php";          
+        });
+    </script>
+</body>
+</html>
