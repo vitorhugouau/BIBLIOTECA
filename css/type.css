@@ -289,6 +289,9 @@ header{
 }
 
 @media (max-width: 428px ){
+    a{
+    font-size: 13pt;
+   }
     
     .container{
         padding: 25px 4%;
