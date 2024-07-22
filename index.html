@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/type.css">
-    <title>Document</title>
+    <title>BIBLIOTECA</title>
     
 </head>
 <body background="/img/nova1920.jpg">
-<nav>
-    <ul class="menu">
-       
-        <li><a href="/php/album.html">ÁLBUM</a>
-        </li>
-        <li><a href="#">CONTATO</a>
-            <ul><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></ul>
-        </li>
-        
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            <li class="menu"><a href="/php/album.html">ÁLBUM</a></li>
+            <li class="menu"><a href="#">CONTATO</a>
+                <ul class="dropdown">
+                    <li><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
     <div class="container">
         <h1 class="heading">BIBLIOTECA DE FOTOS</h1>
 
@@ -140,12 +140,19 @@
     </div>
 
     <script src="/js/main.js"></script>
-
+<!-- 
     <script>
-        document.getElementById("sair").addEventListener("click", function(event) {
-            event.preventDefault(); 
-                window.location.href = "index.php";          
+        const contato = document.getElementById('contato');
+        const instagram = document.querySelector('.instagram');
+
+        contato.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (instagram.style.display === 'flex') {
+                instagram.style.display = 'none';
+            } else {
+                instagram.style.display = 'flex';
+            }
         });
-    </script>
+    </script> -->
 </body>
 </html>
