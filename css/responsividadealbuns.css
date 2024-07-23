@@ -36,10 +36,15 @@
          font-size: 13pt;
         }
 
+        .heading{
+            padding: 0px;
+        }
+
      .container .container-image{
          display: grid;
          grid-template-columns: repeat(2,1fr);
-         padding: 25px 0px;
+         padding: 15px 0px;
+         gap: 40px;
      }
        
      .container .container-image .image{
