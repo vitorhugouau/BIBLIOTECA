@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     /*box-sizing: border-box;*/
     padding: 0;
@@ -88,10 +89,11 @@ body {
 
 .container .heading{
     text-align: center;
-    color: #737cd8;
-    font: normal 63pt Impact;
+    text-align: center;
+    color: #212767;
+    font: normal 63pt "Anton", sans-serif;
     opacity: 100%;
-    text-shadow: 6px 4px 3px rgba(0,0,0,0.6);
+    text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
     
 }
 /*---------------------------------IMAGENS--------------------------------------*/
