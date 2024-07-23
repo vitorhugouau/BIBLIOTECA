@@ -6,13 +6,11 @@
     margin: 0;
 }
 
-body {
+/* body {
     background-image: url('/imgnovas/altoiac.JPG');
     background-repeat: no-repeat;
-    /* background-size: ; */
     background-size: cover;
-   
-}
+} */
 /*-----------------------------------MENU------------------------------------*/
 .menu {
     list-style-type: none;
@@ -91,11 +89,10 @@ body {
 .container .heading{
     text-align: center;
     text-align: center;
-    color: #172082d6;
+    color: #212767;
     font: normal 63pt "Anton", sans-serif;
     opacity: 100%;
-    text-shadow: 6px 4px 3px rgba(100, 100, 100, 0.886);
-    
+    text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
 }
 /*---------------------------------IMAGENS--------------------------------------*/
 .container .container-image{

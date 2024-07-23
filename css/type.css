@@ -105,9 +105,8 @@ header{
 
 /*---------------------------------TITULO--------------------------------------*/
 .container{
-    padding: 25px 4%;
+    padding: 1px 2%;
     text-align: center;
-    
 }
 
 .container .heading{
@@ -117,7 +116,6 @@ header{
     font: normal 63pt "Anton", sans-serif;
     opacity: 100%;
     text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
-    
 }
 
 /*---------------------------------IMAGENS--------------------------------------*/

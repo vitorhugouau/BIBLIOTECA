@@ -4,11 +4,13 @@
     a{
      font-size: 18pt;
     }
+    .container .container-image{
+        gap: 25px;
+    }
     .container-image{
         align-items: center;
-       justify-content: center;
+        justify-content: center;
    }
- 
      .container .container-image{
          display: grid;
          grid-template-columns: repeat(2,1fr);

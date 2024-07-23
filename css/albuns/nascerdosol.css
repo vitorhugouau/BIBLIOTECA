@@ -6,14 +6,11 @@
     margin: 0;
 }
 
-body {
      /* background-image: url('/imgnovas/rio.JPG'); */
     /* background-repeat: no-repeat;  */
-    background-size: contain;
+    /* background-size: contain; */
     /* background-size: cover; */
-   
-   
-}
+
 /*-----------------------------------MENU------------------------------------*/
 .menu {
     list-style-type: none;
@@ -84,18 +81,17 @@ body {
 }
 /*------------------------------SELECIONAR------------------------------*/
 .container{
-    padding: 25px 6%;
+    padding: 25px 8%;
     text-align: center;
 }
 
 .container .heading{
     text-align: center;
     text-align: center;
-    color: #3360aef1;
+    color: #212767;
     font: normal 63pt "Anton", sans-serif;
     opacity: 100%;
-    text-shadow: 6px 4px 3px rgba(16, 16, 122, 0.859);
-    
+    text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
 }
 /*-------------------------------IMAGENS---------------------------------*/
 .container .container-image{
