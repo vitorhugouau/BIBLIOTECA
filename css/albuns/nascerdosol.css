@@ -5,10 +5,11 @@
 }
 
 body {
-    background-image: url('/imgnovas/rio.JPG');
-    background-repeat: no-repeat;
-    /* background-size: ; */
-    background-size: cover;
+     /* background-image: url('/imgnovas/rio.JPG'); */
+    /* background-repeat: repeat;  */
+    background-size: contain;
+    /* background-size: cover; */
+    margin: 0 auto;
    
 }
 /*-----------------------------------MENU------------------------------------*/

@@ -187,31 +187,3 @@ header{
     color: #01060c;
     font: normal Impact;
 }
-@media (max-width: 768px) {
-    .container .container-image{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        padding: 25px 20px;
-    }
-    .container .container-image .image{
-        width: 100%;
-    }
-    .container #search-box{
-        width: 10%;
-    }
-  }
-
-@media(max-width:450px){
-    .container .container-image{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        padding: 25px 20px;
-    }
-      .container #search-box{
-        width: 1000%;
-    }
-    .container .container-image .image{
-        width: 100%;
-    }
-
-}
