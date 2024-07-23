@@ -186,7 +186,7 @@
         text-align: center;
         text-align: center;
         color: #212767;
-        font: normal 35pt "Anton", sans-serif;
+        font: normal 39pt "Anton", sans-serif;
         opacity: 100%;
         text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
     }
@@ -207,6 +207,7 @@
        
      .container .container-image .image{
          width: 100%;
+         padding: 7px;
      }
      .container .container-image .image h3{
          font-size: 20px;
