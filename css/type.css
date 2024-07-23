@@ -132,9 +132,8 @@ header{
     }
 }
 .container .container-image .image{
-    width: 560px; /*largura */
+    width: 590px; /*largura */
     border-radius: 5px;
-    
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     background-color: #d8d7e2;
