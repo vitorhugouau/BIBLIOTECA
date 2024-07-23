@@ -33,11 +33,9 @@
  
  @media (max-width: 1450px ){
      a{
-         font-size: 18pt;
+         font-size: 13pt;
         }
 
-        
- 
      .container .container-image{
          display: grid;
          grid-template-columns: repeat(2,1fr);

@@ -37,7 +37,7 @@
  
  @media (max-width: 1450px) {
         a{
-         font-size: 18pt;
+         font-size: 15pt;
         }
 
         .container-image{
@@ -68,6 +68,9 @@
          }
      }
 @media (max-width: 1360px) {
+    a{
+        font-size: 12pt;
+       }
     .container-image{
          align-items: center;
         justify-content: center;
