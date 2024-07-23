@@ -70,13 +70,6 @@
          padding: 20px 0%;
          text-align: center;
      }
-     .container .heading{
-         align-items: center;
-         /* text-align: center; */
-         color: #212767;
-         font: normal 75pt Impact;
-         text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
-         }
     
      .container .container-image .image img{
          width: 100%;
@@ -155,13 +148,7 @@
          text-align: center;
          
      }
-     .container .heading{
-         align-items: center;
-         /* text-align: center; */
-         color: #212767;
-         font: normal 35pt Impact;
-         text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
-         }
+     
     
      .container .container-image .image img{
          width: 100%;
