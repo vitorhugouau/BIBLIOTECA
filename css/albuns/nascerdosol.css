@@ -6,10 +6,10 @@
 
 body {
      /* background-image: url('/imgnovas/rio.JPG'); */
-    /* background-repeat: repeat;  */
+    /* background-repeat: no-repeat;  */
     background-size: contain;
-    /* background-size: cover; */
-    margin: 0 auto;
+    background-size: cover;
+   
    
 }
 /*-----------------------------------MENU------------------------------------*/
