@@ -174,13 +174,14 @@
  }
  
  @media (max-width: 428px ){
-     a{
-     font-size: 13pt;
-    }
+    a{
+        font-size: 13pt;
+       }
      .container{
          padding: 8px 3%;
          text-align: center;
      }
+     
 
      .container .heading{
         text-align: center;
@@ -214,7 +215,41 @@
          color: #01060c;
          font: normal Impact;
      }
-     
- 
+ }
+
+ @media (max-width: 162px ){
+    a{
+        font-size: 13pt;
+       }
+       .container .heading{
+        text-align: center;
+        text-align: center;
+        color: #212767;
+        font: normal 25pt "Anton", sans-serif;
+        opacity: 100%;
+        text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
+    }
+    .container .container-image .image{
+        /* width: 10%; */
+        padding: 1px;
+    }
+    .container .container-image .image{
+        width: 140px; /*largura */
+        
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 5px 10px rgba(0,0,0,.1);
+        background-color: #d8d7e2;
+        padding: 1px;
+        animation: fadeIn .2s linear;
+    }
+    .container .container-image .image h3{
+        font-size: 10px;
+        color: #01060c;
+        font: normal Impact;
+    }
+    img{
+        align-self: auto;
+    }
  }
  
