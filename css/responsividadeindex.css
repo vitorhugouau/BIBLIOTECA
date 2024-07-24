@@ -185,7 +185,6 @@
 
      .container .heading{
         text-align: center;
-        text-align: center;
         color: #212767;
         font: normal 39pt "Anton", sans-serif;
         opacity: 100%;
@@ -217,12 +216,11 @@
      }
  }
 
- @media (max-width: 162px ){
+@media (max-width: 162px ){
     a{
         font-size: 12pt;
        }
     .container .heading{
-        text-align: center;
         text-align: center;
         color: #212767;
         font: normal 22pt "Anton", sans-serif;
