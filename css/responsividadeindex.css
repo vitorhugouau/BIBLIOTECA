@@ -136,6 +136,12 @@
          color: #01060c;
          font: normal Impact;
      }
+     .container .container-image .image img{
+        transition: all 0.3s ease;
+    }
+    .container .container-image .image img:hover{
+        transform: scale(1.3);
+    }
  
  }
  
@@ -214,6 +220,12 @@
          color: #01060c;
          font: normal Impact;
      }
+    .container .container-image .image img{
+        transition: all 0.3s ease;
+    }
+    .container .container-image .image img:hover{
+        transform: scale(1.3);
+    }
  }
 
 @media (max-width: 162px ){
