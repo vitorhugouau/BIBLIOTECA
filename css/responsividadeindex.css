@@ -239,11 +239,14 @@
         align-items: center;
         text-align: center;
     }
+    .menu ul{
+        min-width: 10px; /*ajusata o tamanha do submenu*/
+    }
  }
 
-@media (max-width: 162px ){
+@media (max-width: 166px ){
     a{
-        font-size: 12pt;
+        font-size: 9pt;
        }
     .container .heading{
         text-align: center;
@@ -292,6 +295,17 @@
     .container .container-image .image img:hover{
         transform: scale(1.2);
     }
+    .instagram {
+        display: none;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+    }
+    .menu ul{
+        min-width: 8px; /*ajusata o tamanha do submenu*/
+    }
+    
    
     
  }
