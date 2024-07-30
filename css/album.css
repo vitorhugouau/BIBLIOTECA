@@ -99,7 +99,7 @@
 /*-------------------------------IMAGENS---------------------------------*/
 .container .container-image{
     display: grid;
-    grid-template-columns: 5fr 1fr ;
+    grid-template-columns: 10fr 10fr ;
     gap: 20px;
     padding: 30px;
 }
@@ -110,7 +110,7 @@
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     background-color: #d8d7e2f3;
-    padding: 9px;
+    padding:13px;
     animation: fadeIn .2s linear;
 }
 .container .container-image .image img{
@@ -118,7 +118,7 @@
     height: 300px; 
     object-fit: cover;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: all 0.4s ease;
 }
 .container .container-image .image img:hover{
