@@ -69,7 +69,7 @@ header{
     display: none;
     position: absolute;
     background-color: #444; /* Cor de fundo do submenu */
-    min-width: 150px; /*ajusata o tamanha do submenu*/
+    /* min-width: 150px; ajusata o tamanha do submenu */
     top: 100%; /* Posiciona o submenu abaixo do item pai */
     left: 0;
 }
@@ -102,6 +102,7 @@ header{
 #sair:hover {
     background-color: #0d3a75;
 }
+
 
 /*---------------------------------TITULO--------------------------------------*/
 .container{
