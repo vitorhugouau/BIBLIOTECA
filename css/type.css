@@ -47,6 +47,9 @@ header{
     justify-content: center; /* Centralizar os itens horizontalmente */
     align-items: center; /* Centralizar os itens verticalmente */
 }
+a{
+    font-size:17px;
+}
 
 .menu li {
     display: inline-block;

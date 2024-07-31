@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', comic-sans;
 }
-
-/* body {
-    background-image: url('/imgnovas/dddd.jpg');
-    background-size: cover; 
-} */
-
 
 /*---------------------------------MENU--------------------------------------*/
 .menu {
@@ -25,6 +21,9 @@
     text-align: center; /* Centralizar os itens do menu */
     justify-content: center; /* Centralizar os itens horizontalmente */
     align-items: center; /* Centralizar os itens verticalmente */
+}
+a{
+    font-size:17px;
 }
 
 .menu li {
@@ -48,7 +47,7 @@
     display: none;
     position: absolute;
     background-color: #444; /* Cor de fundo do submenu */
-    min-width: 150px; /*ajusata o tamanha do submenu*/
+    /* min-width: 150px; ajusata o tamanha do submenu */
     top: 100%; /* Posiciona o submenu abaixo do item pai */
     left: 0;
 }
@@ -98,7 +97,7 @@
 .container .container-image{
     display: grid;
     grid-template-columns: 9fr 10fr;
-    gap: 20px;
+    gap: 10px;
     /* padding: 30px; */
 }
 
