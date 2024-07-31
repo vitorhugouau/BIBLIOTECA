@@ -16,10 +16,7 @@
     <ul class="menu">
         <li><a href="#">HOME</a></li>
         <li><a href="php/album.html">ÁLBUM</a></li>
-        <li id="contato"><a href="#">CONTATO</a>
-            <ul class="instagram">
-                <li><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></li>
-            </ul>
+        <li id="contato"><a href="https://www.instagram.com/vitor_filmes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a>          
         </li>        
     </ul>
 </nav>
@@ -144,20 +141,5 @@
 
     <script src="/js/main.js"></script>
 
-    <script>
-        const contato = document.getElementById('contato');
-        const instagram = document.querySelector('.instagram');
-    
-        contato.addEventListener('click', function(e) {
-            if (!e.target.matches('.instagram a')) { 
-                e.preventDefault();
-                if (instagram.style.display === 'flex') {
-                    instagram.style.display = 'none';
-                } else {
-                    instagram.style.display = 'flex';
-                }
-            }
-        });
-    </script>
 </body>
 </html>
