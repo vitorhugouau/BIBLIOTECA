@@ -84,24 +84,22 @@
 
 /*------------------------------SELECIONAR------------------------------*/
 .container{
-    padding: 1px 15%;
-    text-align: center;
+    padding: 0.1px 15%;
+    text-align:center;
 }
 
 .container .heading{
-    text-align: center;
-    text-align: center;
     color: #212767;
-    font: normal 63pt "Anton", sans-serif;
+    font: normal 60pt "Anton", sans-serif;
     opacity: 100%;
     text-shadow: 6px 4px 3px rgb(100 100 100 / 60%);
 }
 /*-------------------------------IMAGENS---------------------------------*/
 .container .container-image{
     display: grid;
-    grid-template-columns: 10fr 10fr ;
+    grid-template-columns: 9fr 10fr;
     gap: 20px;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .container .container-image .image{
