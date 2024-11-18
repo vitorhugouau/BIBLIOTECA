@@ -1,4 +1,4 @@
-﻿# Biblioteca Gerenciável 
+﻿# Biblioteca 
 [iacangafotos.netlify.app](https://iacangafotos.netlify.app/)
 
 ![Screenshot](./assets/home.png)
